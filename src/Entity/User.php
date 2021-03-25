@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 
 /**
+ * @ApiResource()
  * @ORM\Entity(repositoryClass=UserRepository::class)
  */
 class User implements \Symfony\Component\Security\Core\User\UserInterface
